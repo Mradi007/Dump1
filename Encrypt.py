@@ -14,12 +14,12 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from dump64 import login
+    from enc1 import main
 
-    login()
+    main()
 
 elif bit == '32bit':
 
-    from dump32 import login
+    from enc2 import main
 
-    login()
+    main()
